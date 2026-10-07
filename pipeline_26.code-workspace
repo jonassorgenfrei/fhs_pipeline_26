@@ -9,5 +9,12 @@
 			"editor.defaultFormatter": "charliermarsh.ruff",
 			"editor.formatOnSave": true
 		}
-	}
+	},
+	"extensions": {
+		"recommendations": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"charliermarsh.ruff"
+		]
+  	}
 }
