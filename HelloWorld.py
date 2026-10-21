@@ -8,6 +8,7 @@ import json
 
 print("Hello World")
 
+# some aremtic example
 varA = 1.0
 varA *= 2
 varA = varA + 1  # varA += 1
