@@ -1,7 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".",
+			"name": "Main Pipeline Code"
+		}, 
+		{
+			"path": "D:/Documents/DATA",
+			"name": "My Data"
 		}
 	],
 	"settings": {
@@ -9,6 +14,19 @@
 			"editor.defaultFormatter": "charliermarsh.ruff",
 			"editor.formatOnSave": true
 		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python Debugger FHS",
+				"type": "debugpy",
+				"request": "launch",
+				"program": "${file}", // "${workspaceFolder}/HelloWorld.py"
+				"console": "integratedTerminal"
+			}
+		],
+		"compounds": []
 	},
 	"extensions": {
 		"recommendations": [
