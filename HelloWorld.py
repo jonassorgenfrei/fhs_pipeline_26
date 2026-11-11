@@ -44,5 +44,4 @@ with open("D:/Documents/DATA/myData.json", "w") as f:
 
 # print(json_data)
 
-
 print(my_function(5, 10))
