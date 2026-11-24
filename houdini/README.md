@@ -1,1 +1,0 @@
-This is our pipeline Houdini Plugin or Extension

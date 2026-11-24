@@ -112,11 +112,11 @@ print(build_name("sh010"))
 # print(suffix)
 
 # MAIN CODE
-from myModule.myHelperFunction import myFunc
+from python.fhs.myModule.myHelperFunction import myFunc
 
 #  print(myFunc(0))
 
-from myModule.shot import Shot
+from python.fhs.myModule.shot import Shot
 
 shot_a = Shot("sh010")
 print(shot_a.label())

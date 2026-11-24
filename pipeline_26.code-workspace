@@ -10,10 +10,15 @@
 		}
 	],
 	"settings": {
+		"python.analysis.typeCheckingMode": "basic",
 		"[python]": {
 			"editor.defaultFormatter": "charliermarsh.ruff",
 			"editor.formatOnSave": true
-		}
+		},
+		"python.analysis.extraPaths": [
+			"D:/Documents/Development/FH_Salzburg/pipeline/python",
+			"C:/Program Files/Side Effects Software/Houdini 21.0.559/houdini/python3.11libs"
+		],
 	},
 	"launch": {
 		"version": "0.2.0",
